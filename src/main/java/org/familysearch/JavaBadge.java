@@ -23,6 +23,6 @@ public class JavaBadge {
     new FileSort().sort("BofM.txt", "BofM-sorted.txt", null);
 
     //Count how many strings can be added to an array
-//    new StringTest().run();
+    new StringTest().run();
   }
 }

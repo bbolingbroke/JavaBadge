@@ -7,7 +7,7 @@ import java.io.IOException;
 import static org.testng.Assert.*;
 
 @Test
-public class testFileSort {
+public class TestFileSort {
 
   public void testSort() throws IOException {
     FileSort sort = new FileSort();

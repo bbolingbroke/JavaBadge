@@ -8,4 +8,10 @@ public class StaticClass {
     BaseClass.printStaticMessage();
     System.out.println("StaticClass:printMessage");
   }
+
+  public static void alterParams(int size, Integer length, final String value) {
+    size = 12;
+    length = 10;
+//    value = "infinite"; //Will not compile, because a final parameter cannot be modified.
+  }
 }
